@@ -1,3 +1,4 @@
+#include<stdio.h>
 int num1,num2; 
  float num3,num4; 
  scanf("%d %d",&num1,&num2); 
