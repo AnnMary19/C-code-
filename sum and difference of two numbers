@@ -1,0 +1,13 @@
+int num1,num2; 
+ float num3,num4; 
+ scanf("%d %d",&num1,&num2); 
+ scanf("%f %f",&num3,&num4); 
+ int isum,idiff; 
+ float fsum,fdiff; 
+ isum=num1+num2; 
+ idiff=num1-num2; 
+ fsum=num3+num4; 
+ fdiff=num3-num4; 
+ printf("%d %d\n",isum,idiff); 
+ printf("%0.1f %0.1f",fsum,fdiff); 
+    return 0;
